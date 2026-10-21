@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="ClearView 24 Monitor: a slim-bezel monitor on a round base">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ddd2fa"/>
+      <stop offset="1" stop-color="#efe8ff"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="246" rx="70" ry="8" fill="#1a1433" opacity="0.12"/>
+  <rect x="94" y="52" width="212" height="128" rx="5" fill="#2e2550"/>
+  <rect x="98" y="56" width="204" height="120" rx="2" fill="url(#wall)"/>
+  <circle cx="250" cy="90" r="16" fill="#ffffff" opacity="0.9"/>
+  <path d="M98 176 L150 128 L190 160 L222 136 L302 176 Z" fill="#b794ff"/>
+  <rect x="192" y="180" width="16" height="50" fill="#c9c2dc"/>
+  <ellipse cx="200" cy="238" rx="54" ry="10" fill="#c9c2dc"/>
+  <ellipse cx="200" cy="235" rx="54" ry="9" fill="#d9d4e6"/>
+</svg>

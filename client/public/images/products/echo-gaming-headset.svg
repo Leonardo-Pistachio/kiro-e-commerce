@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Echo Gaming Headset: a headset with large ear cups and a microphone boom">
+  <ellipse cx="200" cy="262" rx="110" ry="9" fill="#1a1433" opacity="0.13"/>
+  <path d="M110 170 C104 80 150 40 200 40 C250 40 296 80 290 170" stroke="#241c3d" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M128 110 C146 72 172 60 200 60 C228 60 254 72 272 110" stroke="#7b3ff2" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <rect x="78" y="150" width="62" height="90" rx="26" fill="#1a1433"/>
+  <rect x="260" y="150" width="62" height="90" rx="26" fill="#1a1433"/>
+  <rect x="88" y="162" width="42" height="66" rx="18" fill="none" stroke="#8f4bff" stroke-width="4"/>
+  <rect x="270" y="162" width="42" height="66" rx="18" fill="none" stroke="#8f4bff" stroke-width="4"/>
+  <circle cx="109" cy="195" r="9" fill="#b794ff"/>
+  <circle cx="291" cy="195" r="9" fill="#b794ff"/>
+  <path d="M96 228 C110 262 150 270 182 262" stroke="#3a3060" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="178" y="254" width="24" height="16" rx="8" fill="#625c74"/>
+</svg>

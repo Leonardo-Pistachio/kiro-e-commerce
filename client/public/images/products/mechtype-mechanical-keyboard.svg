@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="MechType Mechanical Keyboard: a keyboard with raised keys and colorful underglow">
+  <defs>
+    <linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f4bff"/>
+      <stop offset="0.5" stop-color="#ff7ad9"/>
+      <stop offset="1" stop-color="#5fd4ff"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <g id="row">
+      <rect width="20" height="18" rx="3" fill="#3a3060"/>
+      <rect y="0" width="20" height="14" rx="3" fill="#4a3f78"/>
+    </g>
+  </defs>
+  <rect x="58" y="196" width="284" height="20" rx="10" fill="url(#rgb)" filter="url(#blur)" opacity="0.8"/>
+  <g transform="skewX(-14) translate(36 0)">
+    <rect x="60" y="100" width="280" height="110" rx="10" fill="#1a1433"/>
+    <g>
+      <use href="#row" x="72" y="112"/><use href="#row" x="96" y="112"/><use href="#row" x="120" y="112"/><use href="#row" x="144" y="112"/><use href="#row" x="168" y="112"/><use href="#row" x="192" y="112"/><use href="#row" x="216" y="112"/><use href="#row" x="240" y="112"/><use href="#row" x="264" y="112"/><use href="#row" x="288" y="112"/><use href="#row" x="312" y="112"/>
+      <use href="#row" x="80" y="136"/><use href="#row" x="104" y="136"/><use href="#row" x="128" y="136"/><use href="#row" x="152" y="136"/><use href="#row" x="176" y="136"/><use href="#row" x="200" y="136"/><use href="#row" x="224" y="136"/><use href="#row" x="248" y="136"/><use href="#row" x="272" y="136"/><use href="#row" x="296" y="136"/>
+      <use href="#row" x="86" y="160"/><use href="#row" x="110" y="160"/><use href="#row" x="134" y="160"/><use href="#row" x="158" y="160"/><use href="#row" x="182" y="160"/><use href="#row" x="206" y="160"/><use href="#row" x="230" y="160"/><use href="#row" x="254" y="160"/><use href="#row" x="278" y="160"/>
+    </g>
+    <rect x="72" y="184" width="44" height="16" rx="3" fill="#7b3ff2"/>
+    <rect x="122" y="184" width="150" height="16" rx="3" fill="#4a3f78"/>
+    <rect x="278" y="184" width="50" height="16" rx="3" fill="#7b3ff2"/>
+  </g>
+</svg>

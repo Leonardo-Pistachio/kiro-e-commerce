@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Aero 14 Ultrabook: a thin silver laptop">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe8ff"/>
+      <stop offset="1" stop-color="#b794ff"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="236" rx="150" ry="10" fill="#1a1433" opacity="0.1"/>
+  <rect x="106" y="62" width="188" height="140" rx="8" fill="#d9d4e6"/>
+  <rect x="113" y="69" width="174" height="126" rx="3" fill="url(#wall)"/>
+  <path d="M113 160 C160 130 210 175 287 135 V195 H113 Z" fill="#8f4bff" opacity="0.55"/>
+  <path d="M113 178 C170 160 220 190 287 165 V195 H113 Z" fill="#6129d4" opacity="0.7"/>
+  <path d="M84 204 H316 L304 222 H96 Z" fill="#c9c2dc"/>
+  <rect x="84" y="202" width="232" height="4" rx="2" fill="#e9e5f3"/>
+  <rect x="180" y="206" width="40" height="4" rx="2" fill="#a99fc7"/>
+</svg>

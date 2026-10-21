@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "01a15cea-4983-7786-a692-4c0ae06e5b86",
+    "slug": "ecommerce-site",
+    "dirName": "261021-ecommerce-site",
+    "scope": "poc",
+    "status": "complete",
+    "request": "52250309"
+  },
+  {
+    "uuid": "01a15d32-6a4d-7e66-ac85-bf7a8b4b33c6",
+    "slug": "chat-assistant-widget",
+    "dirName": "261021-chat-assistant-widget",
+    "scope": "express",
+    "status": "complete",
+    "request": "fc4d03cc"
+  }
+]

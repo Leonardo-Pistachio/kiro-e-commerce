@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Office Pro Tower: a plain quiet desktop tower">
+  <ellipse cx="200" cy="262" rx="82" ry="8" fill="#1a1433" opacity="0.12"/>
+  <rect x="138" y="38" width="124" height="220" rx="10" fill="#e9e5f3"/>
+  <rect x="138" y="38" width="124" height="220" rx="10" fill="none" stroke="#c4bcd8" stroke-width="2"/>
+  <rect x="154" y="58" width="92" height="22" rx="4" fill="#ddd2fa"/>
+  <rect x="164" y="67" width="52" height="4" rx="2" fill="#a99fc7"/>
+  <rect x="154" y="88" width="92" height="22" rx="4" fill="#ddd2fa"/>
+  <circle cx="200" cy="146" r="12" fill="#ffffff" stroke="#c4bcd8" stroke-width="2"/>
+  <path d="M200 140 V146 M195 142 A7 7 0 1 0 205 142" stroke="#7b3ff2" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g fill="#c4bcd8">
+    <rect x="160" y="190" width="80" height="3" rx="1.5"/>
+    <rect x="160" y="200" width="80" height="3" rx="1.5"/>
+    <rect x="160" y="210" width="80" height="3" rx="1.5"/>
+    <rect x="160" y="220" width="80" height="3" rx="1.5"/>
+  </g>
+  <rect x="160" y="168" width="10" height="5" rx="1.5" fill="#625c74"/>
+  <rect x="176" y="168" width="10" height="5" rx="1.5" fill="#625c74"/>
+</svg>

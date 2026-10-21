@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Raptor 17 Pro Gaming Laptop: a large dark laptop with glowing vents">
+  <defs>
+    <radialGradient id="scr" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#3b2390"/>
+      <stop offset="1" stop-color="#110c24"/>
+    </radialGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b794ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#b794ff"/>
+      <stop offset="1" stop-color="#b794ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="248" rx="178" ry="11" fill="#1a1433" opacity="0.16"/>
+  <path d="M82 44 H318 L326 200 H74 Z" fill="#1a1433"/>
+  <path d="M82 44 H318 L316 52 H84 Z" fill="#8f4bff"/>
+  <rect x="90" y="56" width="220" height="136" rx="2" fill="url(#scr)"/>
+  <circle cx="200" cy="124" r="34" fill="none" stroke="#b794ff" stroke-width="2"/>
+  <circle cx="200" cy="124" r="4" fill="#efe8ff"/>
+  <path d="M200 80 V100 M200 148 V168 M156 124 H176 M224 124 H244" stroke="#efe8ff" stroke-width="3" stroke-linecap="round"/>
+  <rect x="98" y="64" width="40" height="6" rx="3" fill="#8f4bff"/>
+  <rect x="270" y="64" width="32" height="6" rx="3" fill="#ff7ad9"/>
+  <path d="M50 202 H350 L332 236 H68 Z" fill="#241c3d"/>
+  <g fill="#3a3060">
+    <rect x="96" y="208" width="208" height="5" rx="2"/>
+    <rect x="96" y="216" width="208" height="5" rx="2"/>
+  </g>
+  <rect x="60" y="236" width="280" height="6" rx="3" fill="url(#glow)"/>
+  <path d="M50 202 L68 202 L64 214 L50 214 Z M350 202 L332 202 L336 214 L350 214 Z" fill="#8f4bff"/>
+</svg>

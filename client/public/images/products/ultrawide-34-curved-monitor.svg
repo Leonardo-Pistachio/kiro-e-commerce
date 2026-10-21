@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="UltraWide 34 Curved Monitor: a wide curved screen showing a panorama">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2390"/>
+      <stop offset="0.6" stop-color="#b794ff"/>
+      <stop offset="1" stop-color="#ffd1ec"/>
+    </linearGradient>
+    <clipPath id="screen">
+      <path d="M42 74 Q200 54 358 74 V174 Q200 156 42 174 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="200" cy="250" rx="92" ry="8" fill="#1a1433" opacity="0.13"/>
+  <path d="M36 66 Q200 44 364 66 V182 Q200 162 36 182 Z" fill="#2e2550"/>
+  <g clip-path="url(#screen)">
+    <rect x="40" y="50" width="320" height="130" fill="url(#dusk)"/>
+    <path d="M40 180 L90 132 L130 156 L190 110 L240 150 L290 124 L360 168 V180 Z" fill="#1a1433"/>
+    <circle cx="300" cy="96" r="12" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <rect x="190" y="172" width="20" height="58" fill="#c9c2dc"/>
+  <path d="M134 246 Q200 226 266 246 Z" fill="#d9d4e6"/>
+  <rect x="134" y="240" width="132" height="8" rx="4" fill="#c9c2dc"/>
+</svg>

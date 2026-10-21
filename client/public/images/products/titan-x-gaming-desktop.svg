@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Titan X Gaming Desktop: a glass tower with glowing fans and liquid cooling">
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1a5e"/>
+      <stop offset="1" stop-color="#110c24"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="268" rx="104" ry="9" fill="#1a1433" opacity="0.15"/>
+  <rect x="122" y="26" width="156" height="236" rx="8" fill="#1a1433"/>
+  <rect x="132" y="36" width="104" height="216" rx="4" fill="url(#glass)"/>
+  <rect x="244" y="36" width="24" height="216" rx="3" fill="#241c3d"/>
+  <g fill="none" stroke-width="5">
+    <circle cx="164" cy="76" r="22" stroke="#8f4bff"/>
+    <circle cx="164" cy="128" r="22" stroke="#ff7ad9"/>
+    <circle cx="164" cy="180" r="22" stroke="#5fd4ff"/>
+  </g>
+  <g fill="#3a3060">
+    <circle cx="164" cy="76" r="8"/>
+    <circle cx="164" cy="128" r="8"/>
+    <circle cx="164" cy="180" r="8"/>
+  </g>
+  <path d="M214 60 C226 60 226 80 214 90 C204 98 204 112 214 118" stroke="#b794ff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <rect x="198" y="112" width="30" height="20" rx="4" fill="#3a3060" stroke="#b794ff" stroke-width="2"/>
+  <rect x="140" y="214" width="90" height="16" rx="3" fill="#3a3060"/>
+  <rect x="140" y="226" width="90" height="4" rx="2" fill="#8f4bff"/>
+  <circle cx="256" cy="50" r="4" fill="#b794ff"/>
+  <rect x="250" y="64" width="12" height="3" rx="1.5" fill="#625c74"/>
+  <rect x="250" y="72" width="12" height="3" rx="1.5" fill="#625c74"/>
+</svg>

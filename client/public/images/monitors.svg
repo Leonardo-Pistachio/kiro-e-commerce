@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Monitor">
+  <rect width="400" height="300" fill="#fff4e0"/>
+  <rect x="70" y="50" width="260" height="160" rx="10" fill="#1c2333"/>
+  <rect x="82" y="62" width="236" height="136" rx="4" fill="#ffb020"/>
+  <rect x="190" y="210" width="20" height="40" fill="#6d7894"/>
+  <rect x="140" y="248" width="120" height="10" rx="5" fill="#6d7894"/>
+</svg>

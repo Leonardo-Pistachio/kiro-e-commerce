@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Velocity 27 Gaming Monitor: a fast monitor on angular legs with a glow behind it">
+  <defs>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8f4bff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8f4bff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#110c24"/>
+      <stop offset="1" stop-color="#3b2390"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="110" rx="190" ry="96" fill="url(#halo)"/>
+  <ellipse cx="200" cy="254" rx="110" ry="8" fill="#1a1433" opacity="0.14"/>
+  <rect x="76" y="40" width="248" height="144" rx="4" fill="#1a1433"/>
+  <rect x="82" y="46" width="236" height="130" rx="2" fill="url(#scr)"/>
+  <g stroke-linecap="round" stroke-width="4">
+    <path d="M110 92 H190" stroke="#b794ff"/>
+    <path d="M140 112 H262" stroke="#ff7ad9"/>
+    <path d="M100 132 H220" stroke="#5fd4ff"/>
+    <path d="M170 152 H296" stroke="#b794ff" opacity="0.6"/>
+  </g>
+  <path d="M82 176 H318 L310 184 H90 Z" fill="#8f4bff"/>
+  <rect x="192" y="184" width="16" height="34" fill="#241c3d"/>
+  <path d="M200 216 L112 250 M200 216 L288 250" stroke="#241c3d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M200 216 L112 250 M200 216 L288 250" stroke="#8f4bff" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Keyboard and mouse">
+  <rect width="400" height="300" fill="#f6ecff"/>
+  <rect x="50" y="130" width="220" height="90" rx="10" fill="#1c2333"/>
+  <g fill="#a97bff">
+    <rect x="64" y="144" width="22" height="18" rx="3"/><rect x="92" y="144" width="22" height="18" rx="3"/>
+    <rect x="120" y="144" width="22" height="18" rx="3"/><rect x="148" y="144" width="22" height="18" rx="3"/>
+    <rect x="176" y="144" width="22" height="18" rx="3"/><rect x="204" y="144" width="22" height="18" rx="3"/>
+    <rect x="232" y="144" width="24" height="18" rx="3"/>
+    <rect x="64" y="168" width="36" height="18" rx="3"/><rect x="106" y="168" width="22" height="18" rx="3"/>
+    <rect x="134" y="168" width="22" height="18" rx="3"/><rect x="162" y="168" width="22" height="18" rx="3"/>
+    <rect x="190" y="168" width="22" height="18" rx="3"/><rect x="218" y="168" width="38" height="18" rx="3"/>
+    <rect x="96" y="192" width="128" height="16" rx="3"/>
+  </g>
+  <rect x="295" y="135" width="56" height="86" rx="28" fill="#1c2333"/>
+  <rect x="320" y="148" width="6" height="18" rx="3" fill="#a97bff"/>
+</svg>

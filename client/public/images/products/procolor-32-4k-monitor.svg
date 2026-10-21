@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="ProColor 32 4K Monitor: a monitor with a shading hood showing color swatches">
+  <ellipse cx="200" cy="256" rx="80" ry="8" fill="#1a1433" opacity="0.13"/>
+  <path d="M60 40 L84 52 V182 L60 194 Z" fill="#241c3d"/>
+  <path d="M340 40 L316 52 V182 L340 194 Z" fill="#241c3d"/>
+  <path d="M60 40 H340 L316 52 H84 Z" fill="#1a1433"/>
+  <rect x="84" y="52" width="232" height="130" fill="#2e2550"/>
+  <rect x="90" y="58" width="220" height="118" rx="1" fill="#ffffff"/>
+  <g>
+    <rect x="96" y="64" width="34" height="50" fill="#ff5f6d"/>
+    <rect x="132" y="64" width="34" height="50" fill="#ffb347"/>
+    <rect x="168" y="64" width="34" height="50" fill="#ffe066"/>
+    <rect x="204" y="64" width="34" height="50" fill="#5ed6a0"/>
+    <rect x="240" y="64" width="34" height="50" fill="#5fb4ff"/>
+    <rect x="276" y="64" width="28" height="50" fill="#8f4bff"/>
+  </g>
+  <rect x="96" y="120" width="208" height="20" fill="#8f4bff"/>
+  <rect x="96" y="120" width="208" height="20" fill="url(#ramp)"/>
+  <defs>
+    <linearGradient id="ramp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect x="96" y="146" width="96" height="24" rx="2" fill="#efe8ff"/>
+  <rect x="198" y="146" width="106" height="24" rx="2" fill="#ddd2fa"/>
+  <rect x="186" y="182" width="28" height="62" fill="#c9c2dc"/>
+  <rect x="146" y="242" width="108" height="10" rx="5" fill="#d9d4e6"/>
+</svg>

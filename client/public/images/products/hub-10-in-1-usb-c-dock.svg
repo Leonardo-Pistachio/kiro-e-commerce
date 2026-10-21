@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Hub 10-in-1 USB-C Dock: a docking station with a row of ports and a cable">
+  <ellipse cx="200" cy="200" rx="148" ry="10" fill="#1a1433" opacity="0.12"/>
+  <path d="M62 120 L96 96 H338 L304 120 Z" fill="#ddd2fa"/>
+  <rect x="62" y="120" width="242" height="72" rx="8" fill="#c9c2dc"/>
+  <path d="M304 120 L338 96 V168 L304 192 Z" fill="#a99fc7"/>
+  <rect x="74" y="140" width="22" height="14" rx="2" fill="#1a1433"/>
+  <rect x="102" y="140" width="22" height="14" rx="2" fill="#1a1433"/>
+  <rect x="132" y="142" width="18" height="10" rx="5" fill="#1a1433"/>
+  <rect x="156" y="142" width="18" height="10" rx="5" fill="#1a1433"/>
+  <rect x="180" y="138" width="22" height="18" rx="2" fill="#1a1433"/>
+  <rect x="208" y="141" width="14" height="12" rx="2" fill="#1a1433"/>
+  <rect x="228" y="141" width="14" height="12" rx="2" fill="#1a1433"/>
+  <rect x="248" y="144" width="22" height="6" rx="1.5" fill="#1a1433"/>
+  <circle cx="284" cy="147" r="5" fill="#1a1433"/>
+  <rect x="74" y="168" width="196" height="4" rx="2" fill="#a99fc7"/>
+  <circle cx="290" cy="170" r="3" fill="#8f4bff"/>
+  <path d="M321 132 C350 132 360 180 380 230" stroke="#7b3ff2" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="312" y="126" width="16" height="12" rx="4" fill="#6129d4"/>
+</svg>

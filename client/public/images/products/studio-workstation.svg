@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Studio Workstation: a large tower with handles and a honeycomb front">
+  <defs>
+    <pattern id="hex" width="14" height="12" patternUnits="userSpaceOnUse">
+      <path d="M3.5 0 H10.5 L14 6 L10.5 12 H3.5 L0 6 Z" fill="none" stroke="#a99fc7" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <ellipse cx="200" cy="266" rx="124" ry="9" fill="#1a1433" opacity="0.14"/>
+  <path d="M136 40 V26 H180 V40 M220 40 V26 H264 V40" stroke="#625c74" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="106" y="40" width="188" height="222" rx="10" fill="#c9c2dc"/>
+  <rect x="120" y="56" width="160" height="164" rx="5" fill="#e9e5f3"/>
+  <rect x="120" y="56" width="160" height="164" rx="5" fill="url(#hex)"/>
+  <rect x="120" y="230" width="160" height="16" rx="4" fill="#1a1433"/>
+  <rect x="128" y="236" width="44" height="4" rx="2" fill="#8f4bff"/>
+  <circle cx="268" cy="238" r="4" fill="#b794ff"/>
+  <rect x="106" y="40" width="8" height="222" rx="4" fill="#a99fc7"/>
+  <rect x="286" y="40" width="8" height="222" rx="4" fill="#a99fc7"/>
+</svg>
