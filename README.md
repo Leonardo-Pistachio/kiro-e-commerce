@@ -2,6 +2,60 @@
 
 A small online PC store built in TypeScript for a live hackathon demo: catalog with search and category filter, sign up and log in, server-side cart, checkout with simulated payment, an automatic order lifecycle, My Orders, a shopping assistant (Amazon Bedrock with a rule-based fallback), and protection against overselling.
 
+## Architecture
+
+A single Node.js process serves both the built React app and the JSON API. All data lives in one SQLite file. Amazon Bedrock is the only external service, and it is optional.
+
+```mermaid
+flowchart LR
+  subgraph Browser
+    SPA["React SPA<br/>(pages, ChatWidget, Smart search)"]
+    LS[("localStorage<br/>session token")]
+  end
+
+  subgraph Server["Node.js 24 process (port 3001)"]
+    Static["Static files<br/>dist/ (Vite build)"]
+    API["Express 5 API<br/>server/app.ts"]
+    Auth["auth.ts<br/>scrypt hashes, sessions"]
+    Orders["orders.ts<br/>checkout, lifecycle, cancel"]
+    Assistant["assistant.ts<br/>Bedrock or rule-based parser"]
+    Repo["repo.ts<br/>queries"]
+  end
+
+  DB[("SQLite<br/>data/store.db<br/>(node:sqlite)")]
+  Bedrock["Amazon Bedrock<br/>Converse API"]
+
+  SPA -- "GET /" --> Static
+  SPA -- "fetch /api/* + Bearer token" --> API
+  SPA <--> LS
+  API --> Auth
+  API --> Orders
+  API --> Assistant
+  Auth --> Repo
+  Orders --> Repo
+  Assistant --> Repo
+  Repo --> DB
+  Assistant -. "optional, HTTPS + API key" .-> Bedrock
+```
+
+Text version: the browser loads the React app from `dist/` and calls `/api/*` on the same Express server, sending the session token from localStorage. Routes delegate to `auth.ts`, `orders.ts` and `assistant.ts`, which read and write SQLite through `repo.ts`. The assistant calls Bedrock only when a key is set and falls back to the rule-based parser otherwise. Order status (Paid, Shipped, Delivered) is derived from the order's placed time whenever it is read, so there is no background job.
+
+In development, `npm run dev` replaces the static files with the Vite dev server on port 5173, which proxies `/api` to the API on port 3001.
+
+## Tech stack
+
+| Layer | Technology |
+|---|---|
+| Language | TypeScript 5.9 (server, client and tests) |
+| Runtime | Node.js 24+, run with `tsx` |
+| Backend | Express 5 |
+| Database | SQLite via Node's built-in `node:sqlite` |
+| Auth | Salted scrypt password hashes (`node:crypto`), server-side session tokens |
+| Frontend | React 18, React Router 7 |
+| Build and dev server | Vite 6 with `@vitejs/plugin-react`, `concurrently` for `npm run dev` |
+| AI assistant | Amazon Bedrock Converse API (default model `us.amazon.nova-lite-v1:0`), rule-based fallback |
+| Testing | Vitest 4, Supertest |
+
 ## Requirements
 
 - Node.js 24 or newer (uses the built-in `node:sqlite`; no native modules to compile)
